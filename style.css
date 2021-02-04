@@ -7,10 +7,10 @@ h1 {
 }
 
 img {
-    border: black inset 10px;
+    border: blue inset 10px;
     width: 250px;
     height: 200px;
-    margin-left: 200px;
+    margin-left: 825px;
 }
 
 p {
@@ -22,6 +22,12 @@ p {
 }
 
 footer {
-    margin-block-end: ;
+    margin-left: 950px;
     position: fixed;
+}
+
+body {
+    background-color: lightgrey;
+    
+
 }
