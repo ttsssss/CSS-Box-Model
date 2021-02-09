@@ -3,25 +3,160 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Movie</title>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Tumbling Tots</title>
   </head>
   <body>
-    <main>
-      <h1>Soul</h1>
-      <a href="https://www.imdb.com/title/tt2948372/">
-        <img src="Images/dims.jpeg" alt="Soul" />
-      </a>
+    <header class="banner">
 
-      <p class ="desc">
-        Soul is a new Disney movie about a musician that visits the other side to see his life through a different lens.
-      </p>
-    </main>
+        </header>
 
-    <footer>
-        <p>Disney</p>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           
+            <a class="navbar-brand" href="index.html"> <h3>Tumbling Tots</h3></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Reviews</a>
+                    <a class="nav-item nav-link" href="#">Meet Our Staff</a>
+                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </div>
+            </div>
+        </nav>
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Content Here -->
+          <!-- Jumbotron Here -->
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Tumbling Tots</h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                odio nam saepe cupiditate? Nemo quam magnam natus porro
+                cupiditate dolor doloribus, rem mollitia, consectetur eligendi,
+                qui id beatae rerum quae!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <!-- Content here -->
+          <!-- Image tag -->
+          <img
+            src="Images/daycare.jpg"
+            alt="yeah"
+            width="1250px"
+            height="1000px"
+          />
+        </div>
+        <div class="col-md-6">
+          <!-- Content here -->
+          <!-- p tag about you -->
+          <p>
+            Tumbling tots is the newest affordable daycare! ipsum dolor sit amet consectetur, adipisicing
+            elit. Officia voluptate doloribus similique perspiciatis ipsa
+            eligendi blanditiis illo autem dolores veritatis saepe quaerat
+            tempore et, officiis vitae asperiores doloremque iste molestias.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <!-- content here -->
+          
+          
+            <!--form-->
+            <h4>Interested? Leave your Contact Information</h4>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Name</label>
+                    <input type="name" class="form-control" id="exampleInputPassword1" placeholder="Name">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <!-- a card that holds images -->
+          <div class="card" style="width: 18rem">
+            <img src="Images/d1.jpeg" class="card-img-top" alt="Happy" />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+        <div class="col-md-4">
+          <!-- a card that holds images -->
+          <div class="card" style="width: 18rem">
+            <img src="Images/d2.jpeg" class="card-img-top" alt="Fun" />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
         
-    </footer>
-
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
   </body>
 </html>
